@@ -21,7 +21,7 @@ Example that uses the module with many of its configurations. Used in CI E2E tes
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_rds_postgres_keycloak"></a> [rds\_postgres\_keycloak](#module\_rds\_postgres\_keycloak) | ../.. | n/a |
+| <a name="module_rds"></a> [rds](#module\_rds) | ../.. | n/a |
 | <a name="module_vpc"></a> [vpc](#module\_vpc) | git::https://github.com/defenseunicorns/terraform-aws-uds-vpc.git | tags/v0.0.1-alpha |
 
 ## Resources

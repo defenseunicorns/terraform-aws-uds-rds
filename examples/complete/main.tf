@@ -42,7 +42,7 @@ module "vpc" {
   tags                              = var.tags
 }
 
-module "rds_postgres_keycloak" {
+module "rds" {
   source = "../.."
 
   # provider alias is needed for every parent module supporting RDS backup replication is a separate region
