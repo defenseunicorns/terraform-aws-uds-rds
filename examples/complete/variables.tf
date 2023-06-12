@@ -38,19 +38,19 @@ variable "rds_engine" {
 variable "rds_engine_version" {
   description = "The database engine version."
   type        = string
-  default     = "14.1"
+  default     = "15.3"
 }
 
 variable "rds_family" {
   description = "The family of the DB parameter group."
   type        = string
-  default     = "postgres14"
+  default     = "postgres15"
 }
 
 variable "rds_major_engine_version" {
   description = "The major version of the engine that this option group should be associated with."
   type        = string
-  default     = "14"
+  default     = "15"
 }
 
 variable "rds_instance_class" {
