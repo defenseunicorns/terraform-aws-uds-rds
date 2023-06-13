@@ -111,7 +111,7 @@ module "db" {
 ################################################################################
 module "security_group" {
   source  = "terraform-aws-modules/security-group/aws"
-  version = "~> 5.0"
+  version = "5.1.0"
 
   name        = var.db_name
   description = "Complete PostgreSQL example security group"
