@@ -2,8 +2,8 @@ package e2e_test
 
 import (
 	"context"
-	"github.com/defenseunicorns/terraform-aws-uds-rds/test/e2e/utils"
 	"os"
+	utils "test_test/test/utils"
 	"testing"
 	"time"
 )
