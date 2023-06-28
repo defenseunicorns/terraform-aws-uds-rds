@@ -80,6 +80,12 @@ No outputs.
 | <a name="module_rds"></a> [rds](#module\_rds) | ../.. | n/a |
 | <a name="module_vpc"></a> [vpc](#module\_vpc) | git::https://github.com/defenseunicorns/terraform-aws-uds-vpc.git | v0.0.2-alpha |
 
+## Resources
+
+| Name | Type |
+|------|------|
+| [random_id.default](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/id) | resource |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -102,5 +108,7 @@ No outputs.
 | <a name="input_region2"></a> [region2](#input\_region2) | Region to use for RDS backup replication is a separate region | `string` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to apply to all resources | `map(string)` | `{}` | no |
 
+## Outputs
 
+No outputs.
 <!-- END_TF_DOCS -->
