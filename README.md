@@ -1,6 +1,6 @@
 # AWS RDS Module
 
-This repository contains Terraform configuration files that create an RDS (Relational Database Service) instance. This module also creates a KMS (Key Management Service) key and uses it to encrypt and decrypt the backups of the RDS instance.
+This repository contains Terraform configuration files that create a RDS (Relational Database Service) instance. This module also creates a KMS (Key Management Service) key and uses it to encrypt and decrypt the backups of the RDS instance.
 
 ## Examples
 
